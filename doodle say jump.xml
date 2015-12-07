@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SimulatorProject xmlns="https://github.com/judge2020">
+  <Title>Test ptoject - Say jump speedchat</Title>
+  <Description>
+Attempts to say speedchat phrase
+  </Description>
+
+  <MainAction>
+      
+    <Compound type="Sequential">
+        
+      <Speedchat menuItems="3, 0, 2" />
+      
+      <WriteText text="Chacun est l'artisan de sa fortune." pauseDuration="60" />
+      
+      </Compound>
+        
+    </Compound>
+      
+  </MainAction>
+
+</SimulatorProject>
